@@ -6669,7 +6669,7 @@ var HintPopover = /** @class */ (function () {
         this.$content = this.$popover.find('.popover-content,.note-popover-content');
         this.$content.on('click', '.note-hint-item', function () {
             _this.$content.find('.active').removeClass('active');
-            $$1(_this).addClass('active');
+            $(this).addClass('active');
             _this.replace();
         });
     };
